@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <title>FTC 23'</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <meta name="author" content="Aaron Zhang">
+        <meta name="description" content="Final Project">
+        <meta name="robots" content="noindex">
+        <meta name="geo.country" content="Canada">
+<!--       <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'nonce-<your-random-nonce>'">-->
+<!--        <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'sha256-WOdSzz11/3cpqOdrm89LBL2UPwEU9EhbDtMy2OciEhs='">
+-->
+        <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline'">
+
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+
+    <body style = "font-family: sans-serif; min-width: 750px; min-height: 550px; background-color: #553D67">
+        
+        <h1 style = "font-size:  50px; color: #99738E">First Tech Challenge 2023</h1>
+        <hr style = "width: 50%">
+        <div id="mainBody" class = "twobox" style = "color: dodgerblue;" >
+            <h1 style = "font-size: 50px">Blue Alliance</h1>
+            <h1 style = "font-size: 40px">Autonomous</h1>
+            <h1>Purple Pixel Bonus</h1>
+            <div class = "threebox-stuff">
+                <h6>Unplaced</h6>
+                <input type="number" id="autoScore1" placeholder="" style = "width: 50%" value = 0>
+                
+            </div>
+             <div class = "threebox-stuff2">
+                <h6>No Team Prop</h6>
+                 <input type="number" id="autoScore2" placeholder="" style = "width: 50%" value = 0>
+            </div >
+             <div class = "threebox-stuff3">
+                <h6>Team Prop</h6>
+                 <input type="number" id="autoScore3" placeholder="" style = "width: 50%" value = 0>
+            </div>
+            <h1>Yellow Pixel Bonus</h1>
+            <div class = "threebox-stuff">
+                <h6>Unplaced</h6>
+                <input type="number" id="autoScore4" placeholder="" style = "width: 50%" value = 0>
+                
+            </div>
+             <div class = "threebox-stuff2">
+                <h6>No Team Prop</h6>
+                 <input type="number" id="autoScore5" placeholder="" style = "width: 50%" value = 0>
+            </div >
+             <div class = "threebox-stuff3">
+                <h6>Team Prop</h6>
+                 <input type="number" id="autoScore6" placeholder="" style = "width: 50%" value = 0>
+            </div>
+            <h1>Autonomous</h1>
+            <div class = "twobox">
+                <h6>Backstage</h6>
+                <input type="number" id="autoScore7" placeholder="" style = "width: 50%" value = 0> 
+                
+            </div>
+             <div class = "twobox">
+                <h6>Backdrop</h6>
+                 <input type="number" id="autoScore8" placeholder="" style = "width: 50%" value = 0>
+            </div >
+
+            <div>
+                <h5>Parking</h5>
+                <div class = "threebox-stuff">
+                    <h3 >Robot 1</h3>
+                    <h3 >Robot 2</h3>
+                </div >
+                <div class = "threebox-stuff2">
+                    <h6 >Full Park</h6>
+                    <input  type="radio" id = "autoParkScore1" name = "blue1" placeholder="" style = "width: 10%; margin-left: 45%">
+                     <input type="radio"  id = "autoParkScore2" name = "blue2" placeholder="" style = "width: 10%; margin-left: 45%">
+                </div >
+                <div class= "threebox-stuff3">
+                    <h6 >No Park</h6>
+                    <input  type="radio" id = "autoParkScore5" name = "blue1" placeholder="" style = "width: 10%; margin-left: 45%">
+                    <input type="radio"  id = "autoParkScore6" name = "blue2" placeholder="" style = "width: 10%; margin-left: 45%">
+                </div>
+            </div>
+                
+                
+                
+            
+            
+            
+            
+            <h1 style = "font-size: 40px">Driver Control</h1>
+            
+            <h1>Regular Point Scoring</h1>
+            <div class = "twobox" >
+                <h6 >Backstage</h6>
+                <input type="number" id="driverScore1" placeholder="" style = "width: 50%" value = 0>
+            </div>
+             <div class = "twobox">
+                <h6>Backdrop</h6>
+                 <input type="number" id="driverScore2" placeholder=""  style = "width: 50%" value = 0>
+            </div>
+            
+             <h1>Bonus Point Scoring</h1>
+            <div class = "twobox" >
+                <h6 >Mosaic Bonus</h6>
+                <input type="number" id="driverScore3" placeholder="" style = "width: 50%" value = 0>
+            </div>
+             <div class = "twobox">
+                <h6>Setline Bonus</h6>
+                 <input type="number" id="driverScore4" placeholder=""  style = "width: 50%" value = 0>
+            </div>
+
+           
+            
+            
+            
+            <h1>End Game</h1>
+            
+<!--
+            <div class = "threebox-stuff"  style = "margin-left: 5%">
+                <h6>POINT OPTION 1</h6> 
+                <input type="number" id="endScore1" placeholder="" style = "width: 50%">
+            </div>
+             <div class = "threebox-stuff">
+                <h6>POINT OPTION 2</h6>
+                 <input type="number" id="endScore2" placeholder=""  style = "width: 50%">
+            </div>
+             <div class = "threebox-stuff">
+                <h6>POINT OPTION 3</h6>
+                 <input type="number" id="endScore3" placeholder=""  style = "width: 50%">
+            </div>
+-->
+            
+            <div>
+                <h5>Drone</h5>
+                <div class = "fivebox">
+                    <h3 >Robot 1</h3>
+                    <h3 >Robot 2</h3>
+                </div >
+                <div class = "fivebox">
+                    <h6 >Miss</h6>
+                    <input  type="radio" id = "BendParkScore1" name = "blue3" placeholder="" style = "width: 10%; margin-left: 45%">
+                     <input type="radio"  id = "BendParkScore2" name = "blue4" placeholder="" style = "width: 10%; margin-left: 45%">
+                </div >
+                <div class = "fivebox">
+                    <h6 >Zone 1</h6>
+                    <input  type="radio" id = "BendParkScore3" name = "blue3" placeholder="" style = "width: 10%; margin-left: 45%">
+                     <input type="radio"  id = "BendParkScore4" name = "blue4" placeholder="" style = "width: 10%; margin-left: 45%">
+                </div >
+                <div class= "fivebox">
+                    <h6 >Zone 2</h6>
+                    <input  type="radio" id = "BendParkScore5" name = "blue3" placeholder="" style = "width: 10%; margin-left: 45%">
+                    <input type="radio"  id = "BendParkScore6" name = "blue4" placeholder="" style = "width: 10%; margin-left: 45%">
+                </div>
+                <div class= "fivebox">
+                    <h6 >Zone 3</h6>
+                    <input  type="radio" id = "BendParkScore7" name = "blue3" placeholder="" style = "width: 10%; margin-left: 45%">
+                    <input type="radio"  id = "BendParkScore8" name = "blue4" placeholder="" style = "width: 10%; margin-left: 45%">
+                </div>
+                
+            </div>
+                
+            <div>
+                <h5>Parking</h5>
+                <div class = "fourbox">
+                    <h3 >Robot 1</h3>
+                    <h3 >Robot 2</h3>
+                </div >
+                <div class = "fourbox">
+                    <h6 >Suspended Park</h6>
+                    <input  type="radio" id = "endParkScore3" name = "blue5" placeholder="" style = "width: 10%; margin-left: 45%">
+                     <input type="radio"  id = "endParkScore4" name = "blue6" placeholder="" style = "width: 10%; margin-left: 45%">
+                </div >
+                <div class= "fourbox">
+                    <h6 >Backstage Park</h6>
+                    <input  type="radio" id = "endParkScore5" name = "blue5" placeholder="" style = "width: 10%; margin-left: 45%">
+                    <input type="radio"  id = "endParkScore6" name = "blue6" placeholder="" style = "width: 10%; margin-left: 45%">
+                </div>
+                <div class= "fourbox">
+                    <h6 >No Park</h6>
+                    <input  type="radio" id = "endParkScore7" name = "blue5" placeholder="" style = "width: 10%; margin-left: 45%">
+                    <input type="radio"  id = "endParkScore8" name = "blue6" placeholder="" style = "width: 10%; margin-left: 45%">
+                </div>
+                <p id="resultBlue"></p>
+            </div>
+                
+        
+            
+            
+            
+            
+            
+            
+            
+
+        </div>
+        
+<!--        ---------------------------->
+        <!--        ---------------------------->
+        <!--        ---------------------------->
+        <!--        ---------------------------->
+        <!--        ---------------------------->
+        <!--        ---------------------------->
+        <!--        ---------------------------->
+<!--        <div class="vl"></div>-->
+        <div id="mainBody" class = "twobox" style = " color: tomato">
+            <h1 style = "font-size: 50px">Red Alliance</h1>
+            <h1 style = "font-size: 40px">Autonomous</h1>
+            <h1>Purple Pixel Bonus</h1>
+            <div class = "threebox-stuff">
+                <h6>Unplaced</h6>
+                <input type="number" id="RautoScore1" placeholder="" style = "width: 50%" value = 0>
+                
+            </div>
+             <div class = "threebox-stuff2">
+                <h6>No Team Prop</h6>
+                 <input type="number" id="RautoScore2" placeholder="" style = "width: 50%" value = 0>
+            </div >
+             <div class = "threebox-stuff3">
+                <h6>Team Prop</h6>
+                 <input type="number" id="RautoScore3" placeholder="" style = "width: 50%" value = 0> 
+            </div>
+            <h1>Yellow Pixel Bonus</h1>
+            <div class = "threebox-stuff">
+                <h6>Unplaced</h6>
+                <input type="number" id="RautoScore4" placeholder="" style = "width: 50%" value = 0>
+                
+            </div>
+             <div class = "threebox-stuff2">
+                <h6>No Team Prop</h6>
+                 <input type="number" id="RautoScore5" placeholder="" style = "width: 50%" value = 0>
+            </div >
+             <div class = "threebox-stuff3">
+                <h6>Team Prop</h6>
+                 <input type="number" id="RautoScore6" placeholder="" style = "width: 50%" value = 0>
+            </div>
+            <h1>Autonomous</h1>
+            <div class = "twobox">
+                <h6>Backstage</h6>
+                <input type="number" id="RautoScore7" placeholder="" style = "width: 50%" value = 0>
+                
+            </div>
+             <div class = "twobox">
+                <h6>Backdrop</h6>
+                 <input type="number" id="RautoScore8" placeholder="" style = "width: 50%" value = 0>
+            </div >
+
+            <div>
+                <h5>Parking</h5>
+                <div class = "threebox-stuff">
+                    <h3 >Robot 1</h3>
+                    <h3 >Robot 2</h3>
+                </div >
+                <div class = "threebox-stuff2">
+                    <h6 >Full Park</h6>
+                    <input  type="radio" id = "RRautoScore5" name = "red5" placeholder="" style = "width: 10%; margin-left: 45%">
+                     <input type="radio"  id = "RRautoScore6" name = "red6" placeholder="" style = "width: 10%; margin-left: 45%">
+                </div >
+                <div class= "threebox-stuff3">
+                    <h6 >No Park</h6>
+                    <input  type="radio" id = "RRautoScore9" name = "red5" placeholder="" style = "width: 10%; margin-left: 45%">
+                    <input type="radio"  id = "RRautoScore10" name = "red6" placeholder="" style = "width: 10%; margin-left: 45%">
+                </div>
+            </div>
+                
+                
+                
+            
+            
+            
+            
+            
+            <h1 style = "font-size: 40px">Driver Control</h1>
+            
+            <h1>Regular Point Scoring</h1>
+            <div class = "twobox" >
+                <h6 >Backstage</h6>
+                <input type="number" id="RdriverScore1" placeholder="" style = "width: 50%" value = 0> 
+            </div>
+             <div class = "twobox">
+                <h6>Backdrop</h6>
+                 <input type="number" id="RdriverScore2" placeholder=""  style = "width: 50%" value = 0>
+            </div>
+            
+             <h1>Bonus Point Scoring</h1>
+            <div class = "twobox" >
+                <h6 >Mosaic Bonus</h6>
+                <input type="number" id="RdriverScore3" placeholder="" style = "width: 50%" value = 0>
+            </div>
+             <div class = "twobox">
+                <h6>Setline Bonus</h6>
+                 <input type="number" id="RdriverScore4" placeholder=""  style = "width: 50%" value = 0>
+            </div>
+
+
+            
+            
+            
+            <h1>End Game</h1>
+            
+<!--
+            <div class = "threebox-stuff"  style = "margin-left: 5%">
+                <h6>POINT OPTION 1</h6> 
+                <input type="number" id="RendScore1" placeholder="" style = "width: 50%">
+            </div>
+             <div class = "threebox-stuff">
+                <h6>POINT OPTION 2</h6>
+                 <input type="number" id="RendScore2" placeholder=""  style = "width: 50%">
+            </div>
+             <div class = "threebox-stuff">
+                <h6>POINT OPTION 3</h6>
+                 <input type="number" id="RendScore3" placeholder=""  style = "width: 50%">
+            </div>
+-->
+            <div>
+                <h5>Drone</h5>
+                <div class = "fivebox">
+                    <h3 >Robot 1</h3>
+                    <h3 >Robot 2</h3>
+                </div >
+                <div class = "fivebox">
+                    <h6 >Missed</h6>
+                    <input  type="radio" id = "RendScore7" name = "red7" placeholder="" style = "width: 10%; margin-left: 45%">
+                    <input type="radio"  id = "RendScore8" name = "red8" placeholder="" style = "width: 10%; margin-left: 45%">
+                </div >
+                <div class = "fivebox">
+                    <h6 >Zone 1</h6>
+                    <input  type="radio" id = "RendScore9" name = "red7" placeholder="" style = "width: 10%; margin-left: 45%">
+                    <input type="radio"  id = "RendScore10" name = "red8" placeholder="" style = "width: 10%; margin-left: 45%">
+                </div >
+                <div class= "fivebox">
+                    <h6 >Zone 2</h6>
+                    <input  type="radio" id = "RendScore11" name = "red7" placeholder="" style = "width: 10%; margin-left: 45%">
+                    <input type="radio"  id = "RendScore12" name = "red8" placeholder="" style = "width: 10%; margin-left: 45%">
+                </div>
+                <div class= "fivebox">
+                    <h6 >Zone 3</h6>
+                    <input  type="radio" id = "RendScore13" name = "red7" placeholder="" style = "width: 10%; margin-left: 45%">
+                    <input type="radio"  id = "RendScore14" name = "red8" placeholder="" style = "width: 10%; margin-left: 45%">
+                </div>
+            </div>
+            
+            <div>
+                <h5>Parking</h5>
+                <div class = "fourbox">
+                    <h3 >Robot 1</h3>
+                    <h3 >Robot 2</h3>
+                </div >
+                <div class = "fourbox">
+                    <h6 >Suspended Park</h6>
+                    <input  type="radio" id = "RendScore7" name = "red9" placeholder="" style = "width: 10%; margin-left: 45%">
+                    <input type="radio"  id = "RendScore8" name = "red10" placeholder="" style = "width: 10%; margin-left: 45%">
+                </div >
+                <div class= "fourbox">
+                    <h6 >Backstage Park</h6>
+                    <input  type="radio" id = "RendScore9" name = "red9" placeholder="" style = "width: 10%; margin-left: 45%">
+                    <input type="radio"  id = "RendScore10" name = "red10" placeholder="" style = "width: 10%; margin-left: 45%">
+                </div>
+                <div class= "fourbox">
+                    <h6 >No Park</h6>
+                    <input  type="radio" id = "RendScore11" name = "red9" placeholder="" style = "width: 10%; margin-left: 45%">
+                    <input type="radio"  id = "RendScore12" name = "red10" placeholder="" style = "width: 10%; margin-left: 45%">
+                </div>
+            </div>
+            <div>
+            
+            </div>
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            <p id="resultRed"></p>
+<!--
+            <button id="playAgain" type="button" onclick="playAgain()">Play Again</button>
+            <button id="quit" type="button" onclick="quit()">Quit Game</button>
+-->
+        </div>
+        <button type="button" id ="score" onclick = "score()">
+            <b>
+                Score
+            </b>
+        </button>
+        <p style = " font-size: 40px"></p>
+        <button type="button" onclick="reload()" >
+            <b>
+                Reset
+            </b>
+        </button>
+        <p style = " font-size: 40px"></p>
+        
+        <button type="button" id = "diceClick" >
+            <script nonce = "">
+                document.getElementById("diceClick").addEventListener('click', dice);
+            </script>
+            <b>
+                Dice
+            </b>
+        </button>
+        <p id = "diceDisplay" style = "font-family: sans-serif; font-size: 40px;text-align: center;width: 20%;margin-left: 40%;color: white" nonce="ABCD123"></p>
+        <button type="button" onclick="clock()" >
+            <b>
+                Timer
+            </b>
+        </button>
+        <audio id="audio" src="https://ummm.ummn.nu/api/v1/download?sig=lbIXRTSaIwSgDEWX8iUlmdxyCY6Dnk7EN2iv9ZeylOY88pTjRdYuzcBlbpdZ2jX7hyjFcPoYPl%2B1f5SnEjhudrOtxorZXGytoN8qLhyT%2BC5GV5Nnja9sLrAKQjxcv2AItV2Z6ParaeZx1Pgtcd%2BW7Wt06LJuGbjApyEEzGlMnyvyAK81BYhd90gf2lL40G%2Bz38V%2FC76KSHHKB3xfLHQ11gjzGq%2By2mBriWc5wLNQSpyT%2BneX90Hu6ohd%2FAGx2sgvoZF6kD1diJN0OFVzHk5wK6aMXkReYFj8GZD8I%2BKKpymSxgZNRDhlEDhF38NyzsOlPYF6LJaUj%2BCwWnwR2bm2lw%3D%3D&v=v=Q3RF5YT4QKo,Q3RF5YT4QKo&_=0.34438737559084864"></audio>
+<!--            <audio id = "audio" src = "https://www.youtube.com/watch?v=Q3RF5YT4QKo"></audio>-->
+<!--        <p id="display"></p>-->
+        <p id = "safeTimerDisplay" style = "font-family: sans-serif; font-size: 40px;text-align: center;width: 20%;margin-left: 40%;color: white"></p>
+
+    </body>
+</html>

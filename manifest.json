@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "First Tech Challenge Centerstage Calculator",
+  "description": "First Tech Challenge 2023-2024 Centerstage Game Scorer",
+  "version": "1.0",
+  "icons": {
+    "128": "icons/Safeimagekit-resized-img.png"
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "action": {
+    "default_popup": "index.html"
+  },
+    
+  "content_scripts": [
+    {
+      "js": [
+        "script.js"
+      ],
+      "matches": [
+        "https://developer.chrome.com/docs/extensions/*",
+        "https://developer.chrome.com/docs/webstore/*"
+      ]
+    }
+  ]
+}

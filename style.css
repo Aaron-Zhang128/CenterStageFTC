@@ -1,0 +1,155 @@
+
+input{
+    background-color: #99738E;
+    transition: background-color 0.3s;
+    font-family: sans-serif;
+    color: white;
+    font-size: 15px;
+    
+    
+    text-align: center;
+    width: 10%;
+    align-items: center;
+    align-content: center;
+
+}
+input:hover, select:hover{
+    background-color: #F64C72;
+    
+    border-color: transparent;
+    
+    box-shadow: 0 0 0 2px orange;
+    transition: box-shadow 0.5s;
+}
+h5{
+    text-align: center;
+    font-size: 25px;
+    align-items: center;
+    align-content: center;
+}
+
+.fourbox {
+    display: inline-block;
+    width:21%;
+    margin: 1%;
+    text-align: center;
+}
+.fivebox {
+    display: inline-block;
+    width:16%;
+    margin: 1%;
+    text-align: center;
+}
+.twobox {
+    display: inline-block;
+    width:47%;
+    margin: 1%;
+    text-align: center;
+}
+.box{
+    text-align: center;
+    width: 20%;
+    align-items: center;
+    align-content: center;
+}
+
+input[type='radio'] {
+/*    -webkit-appearance:none;*/
+    width:30px;
+    height:30px;
+    background:white;
+    border-radius:5px;
+    border:2px solid #555;
+    margin-right: 50%;
+}
+button {
+    width: 20%;
+    margin-left: 40%;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 25px;
+}
+
+div {
+    width: 100%;
+}
+h6{
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
+.threebox-stuff {
+    display: inline-block;
+    width: 25%;
+    margin-left: 1%;
+    margin-right: 5%;
+    margin-bottom: 5px;
+    text-align: center;
+    border-radius: 40px;
+}
+.twoboxleft {
+    float: left;
+    width:1%;
+    margin: 1%;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.twoboxright {
+    float: right;
+    width:45%;
+    margin: 1%;
+    text-align: center;
+    margin-top: -625px;
+}
+
+/*
+.threebox-stuff {
+    display: inline-block;
+    width:23%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5px;
+    text-align: center;
+    border-radius: 40px;
+}
+*/
+.threebox-stuff2 {
+    display: inline-block;
+    width:23%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    border-radius: 40px;
+}
+.threebox-stuff3 {
+    display: inline-block;
+    width:23%;
+    text-align: center;
+    border-radius: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+   
+}
+button {
+    background-color: #99738E;
+    transition: background-color 0.75s;
+    padding-left: 6%;
+    padding-right: 6%;
+    margin-left: 40%;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+button:hover {
+  background-color: #F64C72;
+}
