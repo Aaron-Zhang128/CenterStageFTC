@@ -5,13 +5,10 @@
 ////makes sure everything is where it should be (invisible or not)
 //
 
-//
-//const crypto = require("crypto");
-//crypto.randomBytes(16).toString("base64");
-//// '8IBTHwOdqNKAWeK17p1t8g==;'
-//
-//document.getElementById('score').addEventListener('click', score());
-////document.getElementById('score').addEventListener('click', score());
+
+
+
+
 
 window.onload = function() {
     document.getElementById("playAgain").style.display="none";
@@ -30,7 +27,7 @@ function reload(){
 
 // Define the 'clock' function
 
-
+// Author aaron zhang
 function score(){
     let redAuto = 0;
     let blueAuto = 0;
@@ -109,7 +106,7 @@ function score(){
     
     
     blue = document.getElementsByName("blue3");
-    counter = 0;
+    counter = 1;
     
     for (const check of blue) {
         if (check.checked) {
@@ -133,15 +130,15 @@ function score(){
     
     
     blue = document.getElementsByName("blue4");
-    counter = 0;
+    counter = 1;
     
     for (const check of blue) {
         if (check.checked) {
             if(counter == 1){
-                blueAuto = blueAuto + 20;
+                blueAuto = blueAuto + 0;
             }
             if(counter == 2){
-                blueAuto = blueAuto + 5;
+                blueAuto = blueAuto + 30;
             }
             if(counter == 3){
                 blueAuto = blueAuto + 20;
@@ -153,8 +150,8 @@ function score(){
         }
         counter = counter + 1
     }
+    counter = 1;
     
-    counter = 1
     blue = document.getElementsByName("blue5");
     for (const check of blue) {
         if (check.checked) {
@@ -169,7 +166,7 @@ function score(){
         }
         counter = counter + 1
     }
-    counter = 1
+    counter = 1;
     blue = document.getElementsByName("blue6");
     for (const check of blue) {
         if (check.checked) {
@@ -267,7 +264,7 @@ function score(){
 //    redAuto = redAuto + number;
     
     blue = document.getElementsByName("red7");
-    counter = 0;
+    counter = 1;
     for (const check of blue) {
         if (check.checked) {
             if(counter == 1){
@@ -286,7 +283,7 @@ function score(){
         counter = counter + 1
     }
     blue = document.getElementsByName("red8");
-    counter = 0;
+    counter = 1;
     
     for (const check of blue) {
         if (check.checked) {
@@ -307,7 +304,7 @@ function score(){
         counter = counter + 1
     }
     
-    counter = 1
+    counter = 1;
     blue = document.getElementsByName("red9");
     for (const check of blue) {
         if (check.checked) {
@@ -322,7 +319,7 @@ function score(){
         }
         counter = counter + 1
     }
-    counter = 1
+    counter = 1;
     blue = document.getElementsByName("red10");
     for (const check of blue) {
         if (check.checked) {
@@ -411,7 +408,7 @@ function clock(){
 
 }
 
-
+document.getElementById('diceClick').addEventListener('click', function() {dice();});
 
 function dice(){
     let diceRoll = Math.floor( Math.random() * 6 ) +1;
