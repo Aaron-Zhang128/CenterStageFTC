@@ -32,33 +32,107 @@ function score(){
     let redAuto = 0;
     let blueAuto = 0;
 
-    
-    let number = parseInt(document.getElementById("autoScore1").value);
-    blueAuto = blueAuto + number * 0;
-    number = parseInt(document.getElementById("autoScore2").value);
-    blueAuto = blueAuto + number * 10;
-    number = parseInt(document.getElementById("autoScore3").value);
-    blueAuto = blueAuto + number * 20;
-    
-    number = parseInt(document.getElementById("autoScore4").value);
-    blueAuto = blueAuto + number * 0;
-    number = parseInt(document.getElementById("autoScore5").value);
-    blueAuto = blueAuto + number * 10;
-    number = parseInt(document.getElementById("autoScore6").value);
-    blueAuto = blueAuto + number * 20;
-    
-    number = parseInt(document.getElementById("autoScore7").value);
-    blueAuto = blueAuto + number * 3;
-    number = parseInt(document.getElementById("autoScore8").value);
-    blueAuto = blueAuto + number * 5;
+//    
+//    let number = parseInt(document.getElementById("autoScore1").value);
+//    blueAuto = blueAuto + number * 0;
+//    number = parseInt(document.getElementById("autoScore2").value);
+//    blueAuto = blueAuto + number * 10;
+//    number = parseInt(document.getElementById("autoScore3").value);
+//    blueAuto = blueAuto + number * 20;
+//    
+//    number = parseInt(document.getElementById("autoScore4").value);
+//    blueAuto = blueAuto + number * 0;
+//    number = parseInt(document.getElementById("autoScore5").value);
+//    blueAuto = blueAuto + number * 10;
+//    number = parseInt(document.getElementById("autoScore6").value);
+//    blueAuto = blueAuto + number * 20;
+//    
+//    number = parseInt(document.getElementById("autoScore7").value);
+//    blueAuto = blueAuto + number * 3;
+//    number = parseInt(document.getElementById("autoScore8").value);
+//    blueAuto = blueAuto + number * 5;
 
     
 //    let temporary = document.getElementsByName(1).value;
 //    console.log(temporary);
 //    
-    let blue = document.getElementsByName("blue1");
-    let counter = 1;
     
+    
+    let blue = document.getElementsByName("blue100");
+    let counter = 1;
+    for (const check of blue) {
+        if (check.checked) {
+            if(counter == 1){
+                blueAuto = blueAuto + 0;
+            }
+            if(counter == 2){
+                blueAuto = blueAuto + 10;
+            }
+            if(counter == 3){
+                blueAuto = blueAuto + 20;
+            }
+            
+        }
+        counter = counter + 1
+    }
+    
+    
+    blue = document.getElementsByName("blue101");
+    counter = 1;
+    for (const check of blue) {
+        if (check.checked) {
+            if(counter == 1){
+                blueAuto = blueAuto + 0;
+            }
+            if(counter == 2){
+                blueAuto = blueAuto + 10;
+            }
+            if(counter == 3){
+                blueAuto = blueAuto + 20;
+            }
+            
+        }
+        counter = counter + 1
+    }
+    
+    
+    blue = document.getElementsByName("blue102");
+    counter = 1;
+    for (const check of blue) {
+        if (check.checked) {
+            if(counter == 1){
+                blueAuto = blueAuto + 0;
+            }
+            if(counter == 2){
+                blueAuto = blueAuto + 10;
+            }
+            if(counter == 3){
+                blueAuto = blueAuto + 20;
+            }
+            
+        }
+        counter = counter + 1
+    }
+    blue = document.getElementsByName("blue103");
+    counter = 1;
+    for (const check of blue) {
+        if (check.checked) {
+            if(counter == 1){
+                blueAuto = blueAuto + 0;
+            }
+            if(counter == 2){
+                blueAuto = blueAuto + 10;
+            }
+            if(counter == 3){
+                blueAuto = blueAuto + 20;
+            }
+            
+        }
+        counter = counter + 1
+    }
+    
+    blue = document.getElementsByName("blue1");
+    counter = 1;
     for (const check of blue) {
         if (check.checked) {
             if(counter == 1){
@@ -190,26 +264,97 @@ function score(){
      // ------------------------------
     
     
-    number = parseInt(document.getElementById("RautoScore1").value);
-    redAuto = redAuto + number * 0;
-    number = parseInt(document.getElementById("RautoScore2").value);
-    redAuto = redAuto + number * 10;
-    number = parseInt(document.getElementById("RautoScore3").value);
-    redAuto = redAuto + number * 20;
+//    number = parseInt(document.getElementById("RautoScore1").value);
+//    redAuto = redAuto + number * 0;
+//    number = parseInt(document.getElementById("RautoScore2").value);
+//    redAuto = redAuto + number * 10;
+//    number = parseInt(document.getElementById("RautoScore3").value);
+//    redAuto = redAuto + number * 20;
+//    
+//    number = parseInt(document.getElementById("RautoScore4").value);
+//    redAuto = redAuto + number * 0;
+//    number = parseInt(document.getElementById("RautoScore5").value);
+//    redAuto = redAuto + number * 10;
+//    number = parseInt(document.getElementById("RautoScore6").value);
+//    redAuto = redAuto + number * 20;
+//    
+//    number = parseInt(document.getElementById("RautoScore7").value);
+//    redAuto = redAuto + number * 3;
+//    number = parseInt(document.getElementById("RautoScore8").value);
+//    redAuto = redAuto + number * 5;
+//    
+    blue = document.getElementsByName("blue104");
+    counter = 1;
+    for (const check of blue) {
+        if (check.checked) {
+            if(counter == 1){
+                blueAuto = blueAuto + 0;
+            }
+            if(counter == 2){
+                blueAuto = blueAuto + 10;
+            }
+            if(counter == 3){
+                blueAuto = blueAuto + 20;
+            }
+            
+        }
+        counter = counter + 1
+    }
     
-    number = parseInt(document.getElementById("RautoScore4").value);
-    redAuto = redAuto + number * 0;
-    number = parseInt(document.getElementById("RautoScore5").value);
-    redAuto = redAuto + number * 10;
-    number = parseInt(document.getElementById("RautoScore6").value);
-    redAuto = redAuto + number * 20;
     
-    number = parseInt(document.getElementById("RautoScore7").value);
-    redAuto = redAuto + number * 3;
-    number = parseInt(document.getElementById("RautoScore8").value);
-    redAuto = redAuto + number * 5;
+    blue = document.getElementsByName("blue105");
+    counter = 1;
+    for (const check of blue) {
+        if (check.checked) {
+            if(counter == 1){
+                blueAuto = blueAuto + 0;
+            }
+            if(counter == 2){
+                blueAuto = blueAuto + 10;
+            }
+            if(counter == 3){
+                blueAuto = blueAuto + 20;
+            }
+            
+        }
+        counter = counter + 1
+    }
     
     
+    blue = document.getElementsByName("blue106");
+    counter = 1;
+    for (const check of blue) {
+        if (check.checked) {
+            if(counter == 1){
+                blueAuto = blueAuto + 0;
+            }
+            if(counter == 2){
+                blueAuto = blueAuto + 10;
+            }
+            if(counter == 3){
+                blueAuto = blueAuto + 20;
+            }
+            
+        }
+        counter = counter + 1
+    }
+    blue = document.getElementsByName("blue107");
+    counter = 1;
+    for (const check of blue) {
+        if (check.checked) {
+            if(counter == 1){
+                blueAuto = blueAuto + 0;
+            }
+            if(counter == 2){
+                blueAuto = blueAuto + 10;
+            }
+            if(counter == 3){
+                blueAuto = blueAuto + 20;
+            }
+            
+        }
+        counter = counter + 1
+    }
     
     blue = document.getElementsByName("red5");
     counter = 1;
