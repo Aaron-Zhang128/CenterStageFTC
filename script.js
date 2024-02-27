@@ -162,6 +162,12 @@ function score(){
         counter = counter + 1
     }
     
+    number = parseInt(document.getElementById("autoScore7").value);
+    blueAuto = blueAuto + 3*number;
+    
+    number = parseInt(document.getElementById("autoScore8").value);
+    blueAuto = blueAuto + 5*number;
+    
     number = parseInt(document.getElementById("driverScore1").value);
     blueAuto = blueAuto + number;
     number = parseInt(document.getElementById("driverScore2").value);
@@ -255,6 +261,10 @@ function score(){
         }
         counter = counter + 1
     }
+    
+    
+    
+    
     
     
     // ------------------------------
@@ -390,6 +400,11 @@ function score(){
     
     
     
+    number = parseInt(document.getElementById("RautoScore7").value);
+    redAuto = redAuto + 3*number;
+    
+    number = parseInt(document.getElementById("RautoScore8").value);
+    redAuto = redAuto + 5*number;
     
     
     number = parseInt(document.getElementById("RdriverScore1").value);
