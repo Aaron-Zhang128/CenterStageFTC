@@ -292,19 +292,55 @@ function score(){
 //    redAuto = redAuto + number * 3;
 //    number = parseInt(document.getElementById("RautoScore8").value);
 //    redAuto = redAuto + number * 5;
+    
+    blue =  document.getElementsByName("autoScore104");;
+    for (const check of blue) {
+        if (check.checked) {
+            if(counter == 1){
+                redAuto = redAuto+ 0;
+            }
+            if(counter == 2){
+                redAuto = redAuto + 10;
+            }
+            if(counter == 3){
+                redAuto = redAuto + 20;
+            }
+            
+        }
+        counter = counter + 1
+    }
+    
+    
+    blue = document.getElementsByName("autoScore105");
+    counter = 1;
+    for (const check of blue) {
+        if (check.checked) {
+            if(counter == 1){
+               redAuto = redAuto + 0;
+            }
+            if(counter == 2){
+                redAuto = redAuto + 10;
+            }
+            if(counter == 3){
+               redAuto = redAuto + 20;
+            }
+            
+        }
+        counter = counter + 1
+    }
 //    
     blue = document.getElementsByName("blue104");
     counter = 1;
     for (const check of blue) {
         if (check.checked) {
             if(counter == 1){
-                blueAuto = blueAuto + 0;
+                redAuto = redAuto + 0;
             }
             if(counter == 2){
-                blueAuto = blueAuto + 10;
+                redAuto = redAuto + 10;
             }
             if(counter == 3){
-                blueAuto = blueAuto + 20;
+                redAuto = redAuto + 20;
             }
             
         }
@@ -317,13 +353,13 @@ function score(){
     for (const check of blue) {
         if (check.checked) {
             if(counter == 1){
-                blueAuto = blueAuto + 0;
+                redAuto = redAuto + 0;
             }
             if(counter == 2){
-                blueAuto = blueAuto + 10;
+                redAuto = redAuto + 10;
             }
             if(counter == 3){
-                blueAuto = blueAuto + 20;
+                redAuto = redAuto + 20;
             }
             
         }
@@ -336,13 +372,13 @@ function score(){
     for (const check of blue) {
         if (check.checked) {
             if(counter == 1){
-                blueAuto = blueAuto + 0;
+                redAuto = redAuto + 0;
             }
             if(counter == 2){
-                blueAuto = blueAuto + 10;
+               redAuto = redAuto + 10;
             }
             if(counter == 3){
-                blueAuto = blueAuto + 20;
+               redAuto = redAuto+ 20;
             }
             
         }
@@ -353,13 +389,13 @@ function score(){
     for (const check of blue) {
         if (check.checked) {
             if(counter == 1){
-                blueAuto = blueAuto + 0;
+                redAuto = redAuto + 0;
             }
             if(counter == 2){
-                blueAuto = blueAuto + 10;
+                redAuto = redAuto + 10;
             }
             if(counter == 3){
-                blueAuto = blueAuto + 20;
+                redAuto = redAuto + 20;
             }
             
         }
